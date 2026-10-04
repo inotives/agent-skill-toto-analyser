@@ -1,0 +1,16 @@
+{
+  "name": "singapore-toto-cli",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "toto": "node dist/cli.js",
+    "import": "node dist/cli.js import",
+    "latest": "node dist/cli.js latest",
+    "predict": "node dist/cli.js predict"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.9.0"
+  }
+}
